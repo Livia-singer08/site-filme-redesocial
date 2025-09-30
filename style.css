@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #ffffff; 
+    color: #1c1e21; 
+}
+
+header {
+    background-color: #1877f2; 
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav a {
+    color: #ffffff; 
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #a0c4ff; 
+}
+
+section {
+    padding: 30px;
+    background-color: #d7e2fb; 
+    color: #1c1e21; 
+    margin: 40px auto;
+    border-left: 4px solid #1877f2; 
+    border-radius: 30px;
+    max-width: 1500px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #1877f2; 
+}
+
+.poster-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.poster-gallery img {
+    width: 300px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.poster-gallery img:hover {
+    transform: scale(1.05);
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    background-color: #f0f2f5; 
+    border-radius: 10px;
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+#perfil {
+    background-color: #d7e2fb; 
+    color: #1c1e21; 
+    padding: 30px;
+    margin: 40px auto;
+    border-left: 4px solid #1877f2; 
+    border-radius: 30px;
+    width: 100%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1877f2; 
+    margin-top: 50px;
+}
+
+footer a {
+    color: #ffffff;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+footer a:hover {
+    color: #a0c4ff; 
+}
